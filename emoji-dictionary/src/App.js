@@ -34,7 +34,7 @@ function App() {
     <div className="App">
  <h1>Emoji Dictionary</h1>
       <input onChange={emojiInputHandler} />
-      <h2>{meaning} </h2>
+      <h2>"{meaning}"</h2>
       <h3>Emojis we know </h3>
       {emojisWeKnow.map(function (emoji) {
         return (
